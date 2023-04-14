@@ -1,0 +1,19 @@
+.partenaire-banner {
+    padding-top: 50px;
+    background: url('../../assets/sectionh2.svg');
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+
+.partenaire-banner p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.partenaire-banner span {
+    color: #000;
+    font-weight: 700;
+}
+

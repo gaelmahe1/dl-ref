@@ -1,0 +1,75 @@
+.service {
+    background: url('../../assets/sectionhome.svg');
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+    padding-top: 1px;
+}
+
+
+
+.service-items {
+    margin-top: 45px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.service-items span {
+    color: #000;
+    font-weight: 700;
+}
+
+.service-items h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--blue-color);
+}
+
+.service-items p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.conception {
+    text-align: center;
+    padding: 30px 40px;
+    width: 378px;
+    height: 159px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+}
+
+.installation {
+    text-align: center;
+    padding: 30px 40px;
+    width: 378px;
+    height: 159px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+}
+
+.maintenance {
+    text-align: center;
+    padding: 30px 40px;
+    width: 378px;
+    height: 159px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+}
+
+.service-brand {
+    width: 14%;
+}

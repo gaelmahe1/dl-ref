@@ -1,0 +1,31 @@
+.install-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.install-title {
+    color: var(--blue-color);
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.install-title span {
+    font-family: 'Jockey One';
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.line {
+    border: 0.8px solid #194099;
+    transform: rotate(-90deg);
+    width: 33px;
+    height: 0px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.title-item {
+    display: flex;
+    align-items: center;
+}

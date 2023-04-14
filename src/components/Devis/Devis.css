@@ -1,0 +1,14 @@
+.devis {
+    padding: 22px 43px;
+    border: 2px solid #194099;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--blue-color);
+}
+
+.devis-items {
+    margin: 110px 36%;
+}
+

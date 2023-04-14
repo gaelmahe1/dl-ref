@@ -1,0 +1,98 @@
+.presta-branding {
+    font-family: 'Jockey One';
+    font-weight: bold;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top:0;
+    position: relative;
+    border-bottom: 1px solid #194099;
+    padding-bottom: 0.2em;
+    width: 17%;
+    padding: 2px;
+    margin: 0;
+    margin-top: 37px;
+}
+
+.prestation h2 {
+    padding: 2px;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--blue-color);
+}
+
+.card-btn {
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+    border-radius: 10px;
+    padding:10px 20px;
+    color: #FFFFFF;
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.card img {
+    margin-bottom: 25px;
+}
+
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    margin-top: 34px;
+    margin-bottom: 4px;
+}
+
+.card1 {
+    width: 240px;
+    height: 290px;
+    background: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card2 {
+    width: 240px;
+    height: 290px;
+    background: var(--yellow-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card3 {
+    width: 240px;
+    height: 290px;
+    background: var(--yellow-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

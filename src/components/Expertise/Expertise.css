@@ -1,0 +1,27 @@
+.expert-section {
+    background: url('../../assets/sectionh3.png');
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    padding-top: 50px;
+}
+
+.expert-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.expert-items h2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--blue-color);
+    text-transform: uppercase;
+}
+
+.expert-items p {
+    font-weight: 400;
+    font-size: 18px;
+}
