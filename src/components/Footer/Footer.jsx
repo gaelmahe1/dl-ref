@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="social">
               <a href="#">
                 <img src={phone} alt="Phone icon" />
-                <p>+33 (0) 1 60 29 68 42</p>
+                <p className="phone">+33 (0) 1 60 29 68 42</p>
               </a>
               <a href="#">
                 <img src={mail} alt="Mail icon" />
@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
               <a href="#">
                 <img src={location} alt="Location icon" />
-                <p>
+                <p className="address">
                   27/29 Av. Charles Allain,
                   <br />
                   77340 Pontault-Combault
@@ -50,6 +50,7 @@ const Footer = () => {
                 <img src={google} alt="Donner votre avis" />
               </a>
               <h3>VOTRE AVIS NOUS INTÉRESSE</h3>
+              <div className="line2"></div>
               <p>
                 © 2023 - DL Réfrigération - Tout droits réservés
                 <br />

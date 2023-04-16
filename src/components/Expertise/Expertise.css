@@ -15,6 +15,8 @@
 }
 
 .expert-items h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     color: var(--blue-color);
@@ -22,6 +24,8 @@
 }
 
 .expert-items p {
-    font-weight: 400;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
 }

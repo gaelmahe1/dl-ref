@@ -3,12 +3,16 @@
     border: 2px solid #194099;
     border-radius: 15px;
     text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     color: var(--blue-color);
 }
 
 .devis-items {
-    margin: 110px 36%;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-left: 35%;
 }
 
