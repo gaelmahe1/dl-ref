@@ -11,7 +11,7 @@ const Install = () => {
     <div className="wrapper">
       
       <div className="title-item">
-      <div className="line2"></div>
+      <div className="line"></div>
       <h2 className='install-title'>Découvrez quelques installations de <span>DL Réfrigération</span></h2>
       </div>
 
