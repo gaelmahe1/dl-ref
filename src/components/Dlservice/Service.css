@@ -25,9 +25,11 @@
     margin: 0;
     margin-bottom: 15px;
     padding: 0;
-    font-weight: 400;
     font-size: 18px;
     color: var(--blue-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
 }
 
 .service-items p {
