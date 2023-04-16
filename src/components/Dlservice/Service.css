@@ -33,7 +33,10 @@
 }
 
 .service-items p {
-    font-weight: 500;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     font-size: 16px;
     margin: 0;
     padding: 0;

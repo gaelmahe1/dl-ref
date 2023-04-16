@@ -50,9 +50,10 @@ header {
 }
 
 header .wrapper p {
-font-family: 'Montserrat';
-font-weight: 700;
-font-size: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
 margin-bottom: 35px;
 }
 
