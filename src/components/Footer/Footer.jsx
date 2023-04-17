@@ -27,7 +27,7 @@ const Footer = () => {
                 <img src={mail} alt="Mail icon" />
                 <p>dliquet@dl-refrigeration.com</p>
               </a>
-              <a href="geo:48,80352° N, 2,61762° E" target="_blank">
+              <a href="http://maps.google.com/?q=1200 27/29 Av. Charles Allain,77340 Pontault-Combault" target="_blank">
                 <img src={location} alt="Location icon" />
                 <p className="address">
                   27/29 Av. Charles Allain,
