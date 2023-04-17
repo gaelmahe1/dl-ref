@@ -12,7 +12,7 @@ const Install = () => {
       
       <div className="title-item">
       <div className="line"></div>
-      <h2 className='install-title'>Découvrez quelques installations de <span>DL Réfrigération</span></h2>
+      <h2 className='install-title'>Découvrez quelques installations de <span>DL Refrigeration</span></h2>
       </div>
 
       <div className="install-img">

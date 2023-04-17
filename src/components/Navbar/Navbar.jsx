@@ -16,8 +16,8 @@ const Navbar = () => {
         <a href="#">Contact</a>
       </div>
       <div className='nav-picto'>
-        <a href="#"><img src={phone} alt="Contact us phone" /></a>
-        <a href="#"><img src={mail} alt="Contact us mail" /></a>
+        <a href="tel:+33016029684" target="_blank"><img src={phone} alt="Contact us phone" /></a>
+        <a href="mailto:dliquet@dl-refrigeration.com" target="_blank"><img src={mail} alt="Contact us mail" /></a>
       </div>
     </nav>
   )

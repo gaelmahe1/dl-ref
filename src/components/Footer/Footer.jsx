@@ -8,7 +8,7 @@ import location from "../../assets/flocation.svg";
 
 const Footer = () => {
   return (
-    <footer className="blue">
+    <footer className="fblue">
       <div className="wrapper">
         <div className="content-container">
           <div className="logof">
@@ -19,15 +19,15 @@ const Footer = () => {
 
           <div className="links">
             <div className="social">
-              <a href="#">
+              <a href="tel:+33160296842" target="_blank">
                 <img src={phone} alt="Phone icon" />
                 <p className="phone">+33 (0) 1 60 29 68 42</p>
               </a>
-              <a href="#">
+              <a href="mailto:dliquet@dl-refrigeration.com" target="_blank">
                 <img src={mail} alt="Mail icon" />
                 <p>dliquet@dl-refrigeration.com</p>
               </a>
-              <a href="#">
+              <a href="geo:48,80352° N, 2,61762° E" target="_blank">
                 <img src={location} alt="Location icon" />
                 <p className="address">
                   27/29 Av. Charles Allain,

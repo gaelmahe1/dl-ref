@@ -39,6 +39,11 @@ a {
     margin-right: 47px;
 }
 
+.btn-blue:hover {
+    background: #0F46C4;
+    border-radius: 10px;
+}
+
 .btn-yellow {
     background: var(--yellow-color);
     border-radius: 10px;
@@ -48,6 +53,11 @@ a {
     font-family: 'Montserrat';
     font-weight: 400;
     margin-right: 47px;
+}
+
+.btn-yellow:hover {
+    background: #FFDE00;
+    border-radius: 10px;
 }
 
 .brandings {
@@ -69,6 +79,6 @@ a {
     color: var(--blue-color);
 }
 
-.blue {
+.fblue {
     background: var(--blue-color);
 }

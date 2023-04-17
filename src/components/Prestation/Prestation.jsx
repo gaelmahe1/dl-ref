@@ -11,14 +11,14 @@ const Prestation = () => {
     
         <section className="prestation">
         <h1 className="presta-branding">dl refrigeration</h1>
-        <h2>Nos Prestation</h2>
+        <h2>Nos Prestations</h2>
             <div className="card">
             
             <div className="card1">
                 <p>Particulier</p>
                 <h2>Climatisation</h2>
                 <img src={presta1} alt="Card illustration particulier" />
-                <a className="card-btn" href="#">En savoir plus</a>
+                <a className="card-btn blue" href="#">En savoir plus</a>
             </div>
             
             <div className="card2">

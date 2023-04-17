@@ -5,7 +5,7 @@ const Devis = () => {
   return (
     <div className="devis-items">
 
-    <a className="devis" href="#">devis gratuit & sans engagement</a>
+    <a className="devis" href="mailto:dliquet@dl-refrigeration.com" target="_blank">devis gratuit & sans engagement</a>
 
     </div>
   )

@@ -36,6 +36,18 @@
     color: #FFFFFF;
 }
 
+.card-btn:hover {
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #E9C404;
+}
+
+.blue:hover {
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: var(--blue-color);
+}
+
 .card {
     margin-top: 40px;
     margin-bottom: 80px;
