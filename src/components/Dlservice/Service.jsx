@@ -23,7 +23,7 @@ const Service = () => {
         
         <div className="maintenance">
         <h2>Maintenace</h2>
-        <p>DL Réfrigération intervient sur <span>l’entretien et les réparations</span> de vos installations.</p>
+        <p>DL Réfrigération intervient sur <span>l’entretien et les réparations</span><br /> de vos installations.</p>
         </div>
     
     </div>  
