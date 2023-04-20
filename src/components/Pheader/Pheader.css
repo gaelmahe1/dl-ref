@@ -1,0 +1,51 @@
+.Pheader {
+    background: url('../../assets/pheader.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pbranding {
+    font-family: 'Jockey One';
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:0;
+    padding-top: 0;
+    border-bottom: 1px solid #194099;
+    padding-bottom: 0.7em;
+    width: 25%;
+}
+
+.phead {
+    padding-top: 5%;
+}
+
+.ptext {
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 4%;
+    padding: 2% 4%;
+    text-align: justify;
+}
+
+.ptext span {
+    color: black;
+    font-weight: 700;
+}
+
+
+
+.ptag {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #080B5F;
+}

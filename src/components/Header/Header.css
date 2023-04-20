@@ -44,7 +44,7 @@ header {
     color: var(--blue-color);
     border: 2px solid #194099;
     border-radius: 10px;
-    padding:10px 13px;
+    padding:12px 11px;
     
 }
 
@@ -64,12 +64,12 @@ header {
     color: #fff;
 }
 
-header .wrapper p {
+.homehead  {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .head {

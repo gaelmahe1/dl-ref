@@ -1,0 +1,74 @@
+.pinstall-section {
+    margin-bottom: 7%;
+}
+
+.pinstall-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.pinstall-items h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #104594;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+
+.pinstall-items p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15%;
+}
+
+.contactez-nous {
+    border: 2px solid #194099;
+    border-radius: 15px;
+    padding: 1.7% 2%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #194099;
+    margin-left: 35%;
+}
+
+.contactez-nous:hover {
+    background: #194099;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.box {
+    position: relative;
+    height: 378px;
+    width: 378px;
+    overflow: hidden;
+
+}
+
+.box img {
+    width: 100%;
+}
+
+img.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.box:hover img {
+    opacity: 0;
+}
+
+.box:hover img.hover-img {
+    opacity: 1;
+}
