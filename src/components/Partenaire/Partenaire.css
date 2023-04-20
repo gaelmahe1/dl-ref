@@ -27,6 +27,10 @@
 
 }
 
+.part-images :nth-child(2) {
+    margin: 5% 0;
+}
+
 
 .partenaire-item {
     display: flex;

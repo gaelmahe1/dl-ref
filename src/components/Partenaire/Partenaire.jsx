@@ -22,11 +22,11 @@ const Partenaire = () => {
         
         
         <div className="part-images">
-          <a href="https://toshiba-confort.fr/" target="_blank"><img src={toshiba} alt="" /></a>
+          <a href="https://toshiba-confort.fr/" target="_blank"><img src={toshiba} alt="toshiba logo" /></a>
           
-          <a href={pdf} target="_blank"><img src={atlantic} alt="" /></a>
+          <a href={pdf} target="_blank"><img src={atlantic} alt="atlantic logo" /></a>
           
-          <a href="https://www.fujitsu-general.com/fr/" target="_blank"><img src={fuji} alt="" /></a>
+          <a href="https://www.fujitsu-general.com/fr/" target="_blank"><img src={fuji} alt="futji logo" /></a>
         </div>
         </div>
         
