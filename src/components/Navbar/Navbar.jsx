@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/logo.svg";
 import phone from "../../assets/phone.svg";
@@ -7,13 +8,13 @@ import mail from "../../assets/mail.svg";
 const Navbar = () => {
   return (
     <nav>
-      <a className="logo" href="#">
+      <Link className="logo" to="/">
         <img src={logo} alt="Dl refrigeration logo" />
-      </a>
+      </Link>
       <div className='nav-links'>
-        <a className='btn-blue' href="#">Particulier</a>
-        <a className='btn-yellow' href="#">Professionnel</a>
-        <a href="#">Contact</a>
+        <Link className='btn-blue' to="/particulier">Particulier</Link>
+        <Link className='btn-yellow' to="/pro">Professionnel</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className='nav-picto'>
         <a href="tel:+33016029684" target="_blank"><img src={phone} alt="Contact us phone" /></a>
