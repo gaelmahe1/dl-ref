@@ -8,7 +8,7 @@ import mail from "../../assets/mail.svg";
 const Navbar = () => {
   return (
     <nav>
-      <Link className="logo" to="/home">
+      <Link className="logo" to="/">
         <img src={logo} alt="Dl refrigeration logo" />
       </Link>
       <div className='nav-links'>
