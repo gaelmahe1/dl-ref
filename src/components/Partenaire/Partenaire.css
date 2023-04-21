@@ -2,7 +2,7 @@
     background: url('../../assets/sectionh2.svg');
     background-size: cover;
     background-position: center;
-    height: 320px;
+    height: 363px;
 }
 
 .partenaire-banner p {
@@ -19,7 +19,7 @@
 }
 
 .part-images {
-    margin-left: 8%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,8 +27,15 @@
 
 }
 
+.part-images :nth-child(1) {
+margin-top: 2%;
+}
 .part-images :nth-child(2) {
-    margin: 5% 0;
+    margin: 2% 0;
+}
+.part-images :nth-child(3) {
+    width: 126px;
+    height: 60px;
 }
 
 
@@ -44,7 +51,7 @@
     font-size: 30px;
     border-bottom: 1px solid #194099;
     padding-bottom: 0.2em;
-    width: 25%;
+    width: 45%;
     margin: 0;
 }
 
