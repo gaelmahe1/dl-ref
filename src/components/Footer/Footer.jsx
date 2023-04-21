@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
 
             <div className="review">
-              <a href="#">
+              <a href="https://g.page/r/CY50B32s0wffEAI/review" target="_blank">
                 <img src={google} alt="Donner votre avis" />
               </a>
               <h3>VOTRE AVIS NOUS INTÉRESSE</h3>

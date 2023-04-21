@@ -2,7 +2,7 @@
     background: url('../../assets/sectionh2.svg');
     background-size: cover;
     background-position: center;
-    height: 363px;
+    height: 403px;
 }
 
 .partenaire-banner p {
@@ -31,7 +31,7 @@
 margin-top: 2%;
 }
 .part-images :nth-child(2) {
-    margin: 2% 0;
+    margin: 4% 0;
 }
 .part-images :nth-child(3) {
     width: 126px;
