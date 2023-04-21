@@ -1,0 +1,96 @@
+.branding {
+    font-family: 'Jockey One';
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:0;
+    position: relative;
+    border-bottom: 1px solid #194099;
+    padding-bottom: 0.7em;
+    width: 25%;
+}
+
+.proheader {
+    min-height: 55vh;
+    background: url('../../assets/Headhome.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tag {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: var(--blue-color);
+}
+
+
+
+.homehead  {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.prohead {
+padding-top:10%;
+}
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    .branding {
+      font-size: 32px;
+      width: 50%;
+    }
+    
+    .tag {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    
+    .btn-full {
+      font-size: 14px;
+      margin-right: 20px;
+    }
+    
+    .btn-clear {
+      font-size: 14px;
+    }
+    
+    header .wrapper p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .head {
+      padding-top: 30%;
+      padding-left: 10%;
+    }
+  }
+  /*Mobile*/
+  @media screen and (max-width: 480px) {
+    .branding {
+      font-size: 24px;
+      width: 70%;
+    }
+    .tag {
+      font-size: 20px;
+    }
+    .btn-full,
+    .btn-clear {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    header .wrapper p {
+      font-size: 14px;
+    }
+    .head {
+      padding-top: 25%;
+      padding-left: 6%;
+    }
+  }
