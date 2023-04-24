@@ -18,14 +18,14 @@ const pro = () => {
       <img src={clim} alt="climatisation icon" />
       <h1>climatisation</h1>
       <p>Bénéficiez d’un savoir-faire de techniciens expérimentés et d’un travail sur-mesure.</p>
-      <a href="#">En savoir plus</a>
+      <a href="#" className='pro-btn'>En savoir plus</a>
       </div>
       
       <div className="pro-2">
       <img src={froid} alt="froid commercial icon" />
       <h1>froid commercial</h1>
       <p>Faites des économies d’énergie avec des installations qualitatives.</p>
-      <a href="#">En savoir plus</a>
+      <a href="#" className='pro-btn'>En savoir plus</a>
       </div>
 
       </div>
